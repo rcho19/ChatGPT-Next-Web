@@ -400,7 +400,7 @@
   font-size: 14px;
   user-select: text;
   word-break: break-word;
-  border: var(--border-in-light);
+  box-shadow: var(--chat-shadow);
   position: relative;
 }
 
