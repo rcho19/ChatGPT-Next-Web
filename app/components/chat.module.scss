@@ -278,9 +278,11 @@
   font-size: 14px;
   user-select: text;
   word-break: break-word;
-  border: var(--border-in-light);
+  // border: var(--border-in-light);
+  border: none;
   position: relative;
   transition: all ease 0.3s;
+  box-shadow: var(--chat-shadow);
 
   &:hover {
     .chat-message-actions {
