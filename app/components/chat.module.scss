@@ -511,8 +511,7 @@
   padding-top: 10px;
   box-sizing: border-box;
   flex-direction: column;
-  border-top: var(--border-in-light);
-  box-shadow: var(--card-shadow);
+  box-shadow: 0 -1px 3px 0 rgba(0,0,0,0.1);
 
   .chat-input-actions {
     .chat-input-action {
